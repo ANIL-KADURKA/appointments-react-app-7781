@@ -1,0 +1,105 @@
+/* Write your CSS here */
+.appoint-app {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 100px;
+  font-family: bree serif;
+  background-color: blanchedalmond;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.card-op {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 12px;
+  width: 1000px;
+  padding: 50px;
+}
+.input-element {
+  height: 35px;
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-weight: 400;
+  margin: 20px;
+  padding: 15px;
+}
+.name-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+  margin-right: 100px;
+}
+.head {
+  font-size: 26px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.button {
+  height: 35px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  font-weight: 500;
+  outline: none;
+  background-color: yellow;
+}
+.image-icon {
+  height: 380px;
+  width: 380px;
+}
+.horizontal {
+  width: 800px;
+  border: 2px solid grey;
+  margin-top: 20px;
+}
+.p-button {
+  background-color: transparent;
+  border-radius: 8px;
+  color: black;
+  height: 30px;
+  width: 100px;
+  margin: 20px;
+  cursor: pointer;
+}
+.p-button:hover {
+  background-color: aquamarine;
+  box-shadow: inset;
+  outline: none;
+}
+.app-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  flex-wrap: wrap;
+  list-style-type: none;
+  align-items: center;
+}
+.para {
+  font-size: 19px;
+  font-weight: 400;
+  margin: 20px;
+}
+.appointed-co {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+}
